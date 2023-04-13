@@ -1,0 +1,101 @@
+@media (min-width: 1025px) {
+
+/*EXPLORE*/
+
+.section-explore .title-explore{
+    font-size:40px;
+    margin-bottom: -65px;
+}
+
+.section-explore .text-explore{
+    font-size: 26px;
+    padding-top:18px;
+}
+
+
+/*FUNCTIONING*/
+
+.section-functioning .functioning-elements{
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.section-functioning .steps-elements{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)!important;
+    grid-column-gap: 37px;
+}
+
+
+/*RESTAURANTS*/
+
+.restaurants-elements{
+    padding-left:180px;
+    padding-right:180px;
+}
+
+.restaurants-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 91px;
+    grid-row-gap: 1em;
+}
+
+
+/*MENU*/
+
+.menu{
+    margin-left: 193px;
+    margin-right: 193px;
+}
+
+.menu .section-title{
+    margin-left:210px;
+    margin-right:210px
+}
+
+.meals{
+    margin-right: 210px;
+    margin-left: 210px;
+}
+
+/*FOOTER*/
+
+.footer-content{
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+}
+
+.footercolumn{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.text-footer{
+    display: flex;
+    align-items:center;
+    margin-right: 80px;
+}
+
+.text-footer .last-element span{
+    padding-left: 15px;
+}
+
+.text-footer .fourth-element span{
+    padding-left: 45px;
+}
+.text-footer .third-element{
+    padding-left: 14px;
+}
+
+}
+
+
+
+
+
+
+
+
+
