@@ -402,17 +402,32 @@ body{
 
 }
 
-.heart{
-    margin-right: 25px;
+/*HEARTS-ANIM*/
+
+.hearts-home i{
+    position:absolute;
+    bottom:25px;
+    right:25px;
+    font-size: 28px;
+    transition: all 400ms ease-in-out;
 }
 
-.heart img{
+
+.hearts-home .heart-opac{
+    opacity: 0;
+    background-image: linear-gradient(190deg, #9356DC 0%, #FF79DA 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.heart-opac:hover{
+    opacity:1;
+}
+
+.heart-opac img{
     width: 22px;
-    height: 22px
-}
-
-.heart button{
-    border: none;
+    height: 22px;
 }
 
 /**FOOTER**/
