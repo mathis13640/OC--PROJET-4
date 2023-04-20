@@ -191,10 +191,11 @@ body{
 
 }
 
-.section-title{
+.menu .section-title{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    padding-right:45px;
     padding-top: 32px;
     line-height: 0;
     
@@ -439,16 +440,22 @@ body{
     transition: all 400ms ease-in-out;
 }
 
+.hearts-restaurant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hearts-restaurant i{
-    position:absolute;
-    top:55px;
-    right:25px;
+    position: absolute;
+    padding-left: 60px;
     font-size: 28px;
     transition: all 400ms ease-in-out;
 }
 
 
 .heart-opac{
+    position:relative;
     opacity: 0;
     background-image: linear-gradient(190deg, #9356DC 0%, #FF79DA 70%);
     background-clip: text;
