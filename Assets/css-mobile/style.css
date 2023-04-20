@@ -15,6 +15,7 @@ body{
 }
 
 
+
 /**navbar**/
    
 .navbar{
@@ -60,7 +61,7 @@ body{
 }
 
 .elements-navbar .back-button{
-    width: 0%;
+    width: 5%;
 }
 
 .elements-navbar .logo-navbar img{
@@ -72,6 +73,7 @@ body{
     width: 16px;
     height: 17px;
     padding-left:23px;
+    cursor: pointer;
 }
 
 
@@ -97,6 +99,7 @@ body{
     color: #353535;
 }
     
+
 
 /* EXPLORE */
 
@@ -138,7 +141,7 @@ body{
 
 .section-explore .last-element button{
     height: 50px;
-    width: 100%;
+    width: 220px;
     font-size: 16px;
     font-weight: 500;
     padding-left:18px;
@@ -156,6 +159,7 @@ body{
 }
 
 
+
 /* PICTURE */
 
 .section-picture{
@@ -170,6 +174,7 @@ body{
     position: absolute;
     
 }
+
 
 
 /* MENU */
@@ -211,22 +216,31 @@ body{
     padding-top: 20px;
 }
 
+
 .title-meal p{
+    width: 40px;
+    border-bottom: 3px solid #99E2D0;
     font-size:16px;
+    line-height: 2;
 }
 
 .boxes-meal .element-align{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: auto;
+    background-color: white;
 }
 
-
-
 .boxes-meal .text-box{
-    line-height: 0.8;
     padding-left: 15px;
+}
+
+.text-box p{
+    line-height: 1;
+}
+
+.text-box h3{
+    line-height: 0.9;
 }
 
 .box-price{
@@ -249,10 +263,12 @@ body{
 
 .menu .order button{
     display: flex;
+    position:relative;
+    z-index: 2;
     justify-content: center;
     align-items: center;
     height: 50px;
-    width: 186px;
+    width: 220px;
     font-size: 16px;
     font-weight: 500;
     border:none;
@@ -262,8 +278,12 @@ body{
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
    }
+   
+.menu .order button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+}
 
-  
+
 /* FUNCTIONING */
 .section-functioning{
     width: 100%;
@@ -301,8 +321,7 @@ body{
 .box{
     width: 100%;
     height: 72.38px;
-    border-radius: 20px;
-    background-color: #F7F7F7;
+    border-radius: 25px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     margin-bottom:25px;
   
@@ -337,7 +356,9 @@ body{
     align-items: center;
 }
 
-/**Restaurants**/
+
+
+/*RESTAURANTS*/
 
 .restaurants{
     padding:14px;
@@ -359,6 +380,11 @@ body{
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 
+}
+
+.card a{
+    text-decoration: none;
+    color:black;
 }
 
 .card-content{
@@ -394,6 +420,7 @@ body{
 }
 
 .restaurants-cards img{
+    position:relative;
     width: 100%;
     height: 180px;
     object-fit: cover;
@@ -433,7 +460,9 @@ body{
 /**FOOTER**/
 
 .footer{
+    position:relative;
     background-color: #353535;
+    z-index: 1;
 }
 
 .footercolumn{
