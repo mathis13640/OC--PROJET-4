@@ -16,7 +16,7 @@
 
 .box:hover .checked{
     transform: scaleX(1);
-    width: 80px;
+    width: 50px;
 }
 
 
