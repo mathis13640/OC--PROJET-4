@@ -60,6 +60,11 @@ body{
     width: 100%;  
 }
 
+.back-button .positionbtn{
+    padding-left: 30px;
+    color: black;
+}
+
 .elements-navbar .back-button{
     width: 5%;
 }
