@@ -8,6 +8,7 @@
         animation: flash 2.4s both;
         position: fixed;
         z-index: 10000;
+        animation: fadeout 0.5s ease-out 3s both;
         opacity: 1;
       }
 
@@ -33,6 +34,17 @@
     100% {
         color:white;
         text-shadow: 0 0 7px white;
+    }
+}
+
+@keyframes fadeout{
+    0% {
+        opacity:1;
+    }
+
+    100% {
+       opacity:0;
+       z-index: -1;
     }
 }
 

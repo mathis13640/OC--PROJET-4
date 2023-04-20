@@ -14,7 +14,7 @@
     font-size:20px;
 }
 
-.test:hover .checked{
+.box:hover .checked{
     transform: scaleX(1);
     width: 80px;
 }
