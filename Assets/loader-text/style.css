@@ -1,10 +1,11 @@
 @keyframes text-load{
 
   0%{
-    transform: translateY(100%);
+    transform: translateY(200%);
     opacity:0;
 
   }
+
 
   100%{
     transform: translateY(0);
@@ -19,7 +20,7 @@
 }
 
 .meal:nth-child(1){
-  animation-duration: 1,2s;
+  animation-duration: 1s;
 }
 
 .meal:nth-child(2){
