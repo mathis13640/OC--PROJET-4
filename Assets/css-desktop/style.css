@@ -29,6 +29,11 @@
 
 /*RESTAURANTS*/
 
+.hearts-restaurant i {
+    right: 260px!important;
+    
+}
+
 .restaurants-elements{
     padding-left:180px;
     padding-right:180px;
@@ -50,14 +55,19 @@
 }
 
 .menu .section-title{
+    display: flex;
+    justify-content: center;
     margin-left:210px;
     margin-right:210px
+   
 }
 
 .meals{
     margin-right: 210px;
     margin-left: 210px;
 }
+
+
 
 /*FOOTER*/
 

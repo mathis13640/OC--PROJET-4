@@ -439,8 +439,16 @@ body{
     transition: all 400ms ease-in-out;
 }
 
+.hearts-restaurant i{
+    position:absolute;
+    top:55px;
+    right:25px;
+    font-size: 28px;
+    transition: all 400ms ease-in-out;
+}
 
-.hearts-home .heart-opac{
+
+.heart-opac{
     opacity: 0;
     background-image: linear-gradient(190deg, #9356DC 0%, #FF79DA 70%);
     background-clip: text;
