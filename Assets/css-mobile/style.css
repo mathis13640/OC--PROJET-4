@@ -24,6 +24,19 @@ body{
     width: 100%;
 }
 
+
+.logo-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-navbar img{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
 .logo-navbar-home{
     display: flex;
     justify-content: center;
@@ -61,13 +74,16 @@ body{
 }
 
 .back-button .positionbtn{
-    padding-left: 30.1px;
+    padding-left: 30px;
     color: black;
+    font-size: 25px;
 }
 
-.elements-navbar .back-button{
-    width: 5%;
+.back-button{
+    position: absolute;
+    top: 25px;
 }
+
 
 .elements-navbar .logo-navbar img{
     width: 162px;
@@ -212,6 +228,11 @@ body{
     font-size: 28px;
     font-weight:400px ;
     padding-left:14px;
+}
+
+.meals{
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 .container-meal{
@@ -400,6 +421,23 @@ body{
     flex-direction: row;
 }
 
+ .new-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 2px 2px 2px 2px;
+    background-color:#99E2D0;
+    color:#008766;
+    width: 80px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
 .text-cards{
     width: fit-content;
     line-height: 0.5;
@@ -504,4 +542,9 @@ body{
     color: white;
     font-family: 'Shrikhand';
     font-size: 18px;
+}
+
+span a{
+    text-decoration: none;
+    color: white;
 }
