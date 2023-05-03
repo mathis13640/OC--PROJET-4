@@ -226,7 +226,7 @@ body{
     line-height: 1;
     font-family:'Shrikhand';
     font-size: 28px;
-    font-weight:400px ;
+    font-weight:400;
     padding-left:14px;
 }
 
@@ -259,15 +259,22 @@ body{
 }
 
 .boxes-meal .text-box{
+    overflow: hidden;
     padding-left: 15px;
 }
 
 .text-box p{
     line-height: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .text-box h3{
     line-height: 0.9;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .box-price{
